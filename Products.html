@@ -5,588 +5,286 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-700 rounded">
-    <!-- Header Navbar -->
-  
+
+
+
+<!-- body -->
+<body class="bg-black rounded">
+  <div class="flex flex-col items-center border-b bg-white py-4 sm:flex-row sm:px-10 lg:px-20 xl:px-32">
+    <a href="Products.html" class="text-2xl font-bold text-gray-800">sneekpeeks</a>
+    <div class="mt-4 py-2 text-xs sm:mt-0 sm:ml-auto sm:text-base">
+      <div class="relative">
+        <ul class="relative flex w-full items-center justify-between space-x-2 sm:space-x-4">
+          <li class="flex items-center space-x-3 text-left sm:space-x-4">
+            <a class="flex h-6 w-6 items-center justify-center rounded-full bg-emerald-200 text-xs font-semibold text-emerald-700" href="Products.html">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg></a>
+            <span class="font-semibold text-gray-900">Shop</span>
+          </li>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+          <li class="flex items-center space-x-3 text-left sm:space-x-4">
+            <a class="flex h-6 w-6 items-center justify-center rounded-full bg-gray-600 text-xs font-semibold text-white ring ring-gray-600 ring-offset-2" href="#">2</a>
+            <span class="font-semibold text-gray-900">Shipping</span>
+          </li>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+          <li class="flex items-center space-x-3 text-left sm:space-x-4">
+            <a class="flex h-6 w-6 items-center justify-center rounded-full bg-gray-400 text-xs font-semibold text-white" href="#">3</a>
+            <span class="font-semibold text-gray-500">Payment</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
   
   
   
   <!-- Tab Menu -->
-  <div class="min-w-screen min-h-screen bg-gray-300 py-3">
-    <div class="px-4">
+  <div class="min-w-screen min-h-screen bg-black py-3">
+    <div class="px-3">
   
-        <div class="mb-1">
-            <h1 class="text-3xl md:text-5xl font-bold text-[#1E2612]  flex-center text-center">Products</h1>
+      <!-- Header -->
+        <div class="mb-2">
+            <h1 class="text-3xl md:text-5xl font-bold text-white  flex-center text-center">Products</h1>
         </div>
+        <!-- navbar -->
         <div class="mb-4 text-gray-400 flex-center  text-center">
-            <a href="Products.html" class="focus:outline-none hover:underline  text-white font-bold">Products</a> / <a href="cart.html" class="focus:outline-none hover:underline text-white font-bold">Cart</a> / <a href="payment.html"><span class="text-white font-bold">Checkout</span></a> 
+            <a href="Products.html" class="focus:outline-none hover:underline  text-white font-bold">Products</a>  / <a href="payment.html"><span class="text-white font-bold">Checkout</span></a> 
         </div>
   
   <!-- Product List -->
-  <section class="py-10 bg-gray-300  ">
-    <div class="mx-auto grid max-w-6xl  grid-cols-1 gap-6 p-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+  <section class="py-10 bg-black   ">
+    <div class="mx-auto grid max-w-6xl  grid-cols-1 gap-4 p-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+     
+      <!-- Article -->
+      <article class=" bg-gray-200 p-2 shadow-lg hover:shadow-xl hover:bg-white rounded   hover:transform hover:scale-105 duration-300 ">
+              <a href="Omega-Ar.html">
+          <div class="flex flex-row-reverse ">
+            <button class="relative inline-flex items-center  p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
+              <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-400 rounded-md group-hover:bg-opacity-0">
+                  View 3D
+              </span>
+            </button>
+          </div>
+        </a>
+          <div class="relative flex items-end overflow-hidden rounded-xl">
+              <img src="img/omega1.png" />
+
+          </div>
+          <div class="mt-6 p-3   bg-gray-300 hover:bg-gray-300 rounded font-bold text-white  ">Omega<div>
+            <p class="mt-3 text-sm text-[#838282] font-semibold">Omega went to sale this december 2022 winning the most sales in 24 hours
+              
+               </p>
+            <div class="mt-2 flex items-center justify-between">
+                <p class="text-lg font-bold text-blue-500">850€
+                </p>
+              
+              <div class="flex items-center space-x-1.5  px-4 py-1.5  duration-100 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                </svg>
+                <a href="Omega-cart.html">
+                <button class="text-sm ">Add to cart</button>
+              </a>
+              </div>
+            </div>
+          </div>
+        
+      </article>
+
+
+
+
+<!-- Garmin Article -->
+    <!-- Article -->
+    <article class=" bg-gray-200 p-2 shadow-lg hover:shadow-xl hover:bg-white rounded   hover:transform hover:scale-105 duration-300 ">
+      <a href="Omega-Ar.html">
+  <div class="flex flex-row-reverse ">
+    <button class="relative inline-flex items-center  p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
+      <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-400 rounded-md group-hover:bg-opacity-0">
+          View 3D
+      </span>
+    </button>
+  </div>
+</a>
+  <div class=" relative flex items-end overflow-hidden rounded-xl">
+      <img src="img/Garmin_fenix_Render-removebg-preview (1).png" class="w-fit" />
+
+  </div>
+  <div class="mt-6 p-3   bg-gray-300 hover:bg-gray-300 rounded font-bold text-white  ">Omega<div>
+    <p class="mt-3 text-sm text-[#838282] font-semibold">Omega went to sale this december 2022 winning the most sales in 24 hours
       
-      <article class=" bg-gray-300 p-3 shadow-lg hover:shadow-xl hover:bg-white   hover:transform hover:scale-105 duration-300 ">
-        <a href="arproduct.html">
-          <div class="flex justify-end	">
-            <img src="img/Heart.svg" /></a>
-          </div>
-          <div class="relative flex items-end overflow-hidden rounded-xl">
-            <a href="arproduct.html">
-              <img src="img/Watch.svg" /></a>
-  
-          </div>
-  
-          <div class="mt-0 p-2 border-white  bg-white   border-radius: 1.5rem border"><div>
-
-            <h2 class="text-black font-bold  ">GMT-master II</h2>
-           
-            <p class="mt-3 text-sm text-[#838282] font-semibold">Rolex went to sale this december 2022 winning the most sales in 24 hours </p>
-  
-            <div class="mt-3 flex items-end justify-between">
-              <button>
-                <p class="text-lg font-bold text-black">850€</p>
-              </button>
-  
-              <div class="flex items-center space-x-1.5 rounded-lg bg-[#1E2612] px-4 py-1.5 text-white duration-100 hover:bg-[#1E2612]">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                </svg>
-                <a href="cart.html">
-                <button class="text-sm bg-[#1E2612]">Add to cart</button>
-              </a>
-              </div>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class=" bg-gray-300 p-3 shadow-lg hover:shadow-xl hover:bg-white   hover:transform hover:scale-105 duration-300 ">
-        <a href="arproduct.html">
-          <div class="flex justify-end	">
-            <img src="img/Heart.svg" /></a>
-          </div>
-          <div class="relative flex items-end overflow-hidden rounded-xl">
-            <a href="arproduct.html">
-              <img src="img/Watch.svg" /></a>
-  
-          </div>
-  
-          <div class="mt-0 p-2 border-white  bg-white   border-radius: 1.5rem border"><div>
-
-            <h2 class="text-black font-bold  ">GMT-master II</h2>
-           
-            <p class="mt-3 text-sm text-[#838282] font-semibold">Rolex went to sale this december 2022 winning the most sales in 24 hours </p>
-  
-            <div class="mt-3 flex items-end justify-between">
-              <button>
-                <p class="text-lg font-bold text-black">850€</p>
-              </button>
-  
-              <div class="flex items-center space-x-1.5 rounded-lg bg-[#1E2612] px-4 py-1.5 text-white duration-100 hover:bg-[#1E2612]">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                </svg>
-                <a href="cart.html">
-                <button class="text-sm bg-[#1E2612]">Add to cart</button>
-              </a>
-              </div>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class=" bg-gray-300 p-3 shadow-lg hover:shadow-xl hover:bg-white   hover:transform hover:scale-105 duration-300 ">
-        <a href="arproduct.html">
-          <div class="flex justify-end	">
-            <img src="img/Heart.svg" /></a>
-          </div>
-          <div class="relative flex items-end overflow-hidden rounded-xl">
-            <a href="arproduct.html">
-              <img src="img/Watch.svg" /></a>
-  
-          </div>
-  
-          <div class="mt-0 p-2 border-white  bg-white   border-radius: 1.5rem border"><div>
-
-            <h2 class="text-black font-bold  ">GMT-master II</h2>
-           
-            <p class="mt-3 text-sm text-[#838282] font-semibold">Rolex went to sale this december 2022 winning the most sales in 24 hours </p>
-  
-            <div class="mt-3 flex items-end justify-between">
-              <button>
-                <p class="text-lg font-bold text-black">850€</p>
-              </button>
-  
-              <div class="flex items-center space-x-1.5 rounded-lg bg-[#1E2612] px-4 py-1.5 text-white duration-100 hover:bg-[#1E2612]">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                </svg>
-                <a href="cart.html">
-                <button class="text-sm bg-[#1E2612]">Add to cart</button>
-              </a>
-              </div>
-            </div>
-          </div>
-        </a>
-      </article>
-  
-      <article class=" bg-gray-300 p-3 shadow-lg hover:shadow-xl hover:bg-white   hover:transform hover:scale-105 duration-300 ">
-        <a href="arproduct.html">
-          <div class="flex justify-end	">
-            <img src="img/Heart.svg" /></a>
-          </div>
-          <div class="relative flex items-end overflow-hidden rounded-xl">
-            <a href="arproduct.html">
-              <img src="img/Watch.svg" /></a>
-  
-          </div>
-  
-          <div class="mt-0 p-2 border-white bg-white   border-radius: 1.5rem border"><div>
-
-            <h2 class="text-black font-bold  ">GMT-master II</h2>
-           
-            <p class="mt-3 text-sm text-[#838282] font-semibold">Rolex went to sale this december 2022 winning the most sales in 24 hours </p>
-  
-            <div class="mt-3 flex items-end justify-between">
-              <button>
-                <p class="text-lg font-bold text-black">850€</p>
-              </button>
-  
-              <div class="flex items-center space-x-1.5 rounded-lg bg-[#1E2612] px-4 py-1.5 text-white duration-100 hover:bg-[#1E2612]">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                </svg>
-                <a href="cart.html">
-                <button class="text-sm bg-[#1E2612]">Add to cart</button>
-              </a>
-              </div>
-            </div>
-          </div>
-        </a>
-      </article>
-
-
-
-      <article class=" bg-gray-300 p-3 shadow-lg hover:shadow-xl hover:bg-white   hover:transform hover:scale-105 duration-300 ">
-        <a href="arproduct.html">
-          <div class="flex justify-end	">
-            <img src="img/Heart.svg" /></a>
-          </div>
-          <div class="relative flex items-end overflow-hidden rounded-xl">
-            <a href="arproduct.html">
-              <img src="img/Watch.svg" /></a>
-  
-          </div>
-  
-          <div class="mt-0 p-2 border-white  bg-white   border-radius: 1.5rem border"><div>
-
-            <h2 class="text-black font-bold  ">GMT-master II</h2>
-           
-            <p class="mt-3 text-sm text-[#838282] font-semibold">Rolex went to sale this december 2022 winning the most sales in 24 hours </p>
-  
-            <div class="mt-3 flex items-end justify-between">
-              <button>
-                <p class="text-lg font-bold text-black">850€</p>
-              </button>
-  
-              <div class="flex items-center space-x-1.5 rounded-lg bg-[#1E2612] px-4 py-1.5 text-white duration-100 hover:bg-[#1E2612]">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                </svg>
-                <a href="cart.html">
-                <button class="text-sm bg-[#1E2612]">Add to cart</button>
-              </a>
-              </div>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class=" bg-gray-300 p-3 shadow-lg hover:shadow-xl hover:bg-white   hover:transform hover:scale-105 duration-300 ">
-        <a href="arproduct.html">
-          <div class="flex justify-end	">
-            <img src="img/Heart.svg" /></a>
-          </div>
-          <div class="relative flex items-end overflow-hidden rounded-xl">
-            <a href="arproduct.html">
-              <img src="img/Watch.svg" /></a>
-  
-          </div>
-  
-          <div class="mt-0 p-2 border-white  bg-white   border-radius: 1.5rem border"><div>
-
-            <h2 class="text-black font-bold  ">GMT-master II</h2>
-           
-            <p class="mt-3 text-sm text-[#838282] font-semibold">Rolex went to sale this december 2022 winning the most sales in 24 hours </p>
-  
-            <div class="mt-3 flex items-end justify-between">
-              <button>
-                <p class="text-lg font-bold text-black">850€</p>
-              </button>
-  
-              <div class="flex items-center space-x-1.5 rounded-lg bg-[#1E2612] px-4 py-1.5 text-white duration-100 hover:bg-[#1E2612]">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                </svg>
-                <a href="cart.html">
-                <button class="text-sm bg-[#1E2612]">Add to cart</button>
-              </a>
-              </div>
-            </div>
-          </div>
-        </a>
-      </article>
-  
-      <article class=" bg-gray-300 p-3 shadow-lg hover:shadow-xl hover:bg-white   hover:transform hover:scale-105 duration-300 ">
-        <a href="arproduct.html">
-          <div class="flex justify-end	">
-            <img src="img/Heart.svg" /></a>
-          </div>
-          <div class="relative flex items-end overflow-hidden rounded-xl">
-            <a href="arproduct.html">
-              <img src="img/Watch.svg" /></a>
-  
-          </div>
-  
-          <div class="mt-0 p-2 border-white  bg-white   border-radius: 1.5rem border"><div>
-
-            <h2 class="text-black font-bold  ">GMT-master II</h2>
-           
-            <p class="mt-3 text-sm text-[#838282] font-semibold">Rolex went to sale this december 2022 winning the most sales in 24 hours </p>
-  
-            <div class="mt-3 flex items-end justify-between">
-              <button>
-                <p class="text-lg font-bold text-black">850€</p>
-              </button>
-  
-              <div class="flex items-center space-x-1.5 rounded-lg bg-[#1E2612] px-4 py-1.5 text-white duration-100 hover:bg-[#1E2612]">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                </svg>
-                <a href="cart.html">
-                <button class="text-sm bg-[#1E2612]">Add to cart</button>
-              </a>
-              </div>
-            </div>
-          </div>
-        </a>
-      </article>
-  
-      <article class=" bg-gray-300 p-3 shadow-lg hover:shadow-xl hover:bg-white   hover:transform hover:scale-105 duration-300 ">
-        <a href="arproduct.html">
-          <div class="flex justify-end	">
-            <img src="img/Heart.svg" /></a>
-          </div>
-          <div class="relative flex items-end overflow-hidden rounded-xl">
-            <a href="arproduct.html">
-              <img src="img/Watch.svg" /></a>
-  
-          </div>
-  
-          <div class="mt-0 p-2 border-white  bg-white   border-radius: 1.5rem border"><div>
-
-            <h2 class="text-black font-bold  ">GMT-master II</h2>
-           
-            <p class="mt-3 text-sm text-[#838282] font-semibold">Rolex went to sale this december 2022 winning the most sales in 24 hours </p>
-  
-            <div class="mt-3 flex items-end justify-between">
-              <button>
-                <p class="text-lg font-bold text-black">850€</p>
-              </button>
-  
-              <div class="flex items-center space-x-1.5 rounded-lg bg-[#1E2612] px-4 py-1.5 text-white duration-100 hover:bg-[#1E2612]">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                </svg>
-                <a href="cart.html">
-                <button class="text-sm bg-[#1E2612]">Add to cart</button>
-              </a>
-              </div>
-            </div>
-          </div>
-        </a>
-      </article>
-
-
-
-
-
-      <article class=" bg-gray-300 p-3 shadow-lg hover:shadow-xl hover:bg-white   hover:transform hover:scale-105 duration-300 ">
-        <a href="arproduct.html">
-          <div class="flex justify-end	">
-            <img src="img/Heart.svg" /></a>
-          </div>
-          <div class="relative flex items-end overflow-hidden rounded-xl">
-            <a href="arproduct.html">
-              <img src="img/Watch.svg" /></a>
-  
-          </div>
-  
-          <div class="mt-0 p-2 border-white  bg-white   border-radius: 1.5rem border"><div>
-
-            <h2 class="text-black font-bold  ">GMT-master II</h2>
-           
-            <p class="mt-3 text-sm text-[#838282] font-semibold">Rolex went to sale this december 2022 winning the most sales in 24 hours </p>
-  
-            <div class="mt-3 flex items-end justify-between">
-              <button>
-                <p class="text-lg font-bold text-black">850€</p>
-              </button>
-  
-              <div class="flex items-center space-x-1.5 rounded-lg bg-[#1E2612] px-4 py-1.5 text-white duration-100 hover:bg-[#1E2612]">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                </svg>
-                <a href="cart.html">
-                <button class="text-sm bg-[#1E2612]">Add to cart</button>
-              </a>
-              </div>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class=" bg-gray-300 p-3 shadow-lg hover:shadow-xl hover:bg-white   hover:transform hover:scale-105 duration-300 ">
-        <a href="arproduct.html">
-          <div class="flex justify-end	">
-            <img src="img/Heart.svg" /></a>
-          </div>
-          <div class="relative flex items-end overflow-hidden rounded-xl">
-            <a href="arproduct.html">
-              <img src="img/Watch.svg" /></a>
-  
-          </div>
-  
-          <div class="mt-0 p-2 border-white  bg-white   border-radius: 1.5rem border"><div>
-
-            <h2 class="text-black font-bold  ">GMT-master II</h2>
-           
-            <p class="mt-3 text-sm text-[#838282] font-semibold">Rolex went to sale this december 2022 winning the most sales in 24 hours </p>
-  
-            <div class="mt-3 flex items-end justify-between">
-              <button>
-                <p class="text-lg font-bold text-black">850€</p>
-              </button>
-  
-              <div class="flex items-center space-x-1.5 rounded-lg bg-[#1E2612] px-4 py-1.5 text-white duration-100 hover:bg-[#1E2612]">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                </svg>
-                <a href="cart.html">
-                <button class="text-sm bg-[#1E2612]">Add to cart</button>
-              </a>
-              </div>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class=" bg-gray-300 p-3 shadow-lg hover:shadow-xl hover:bg-white   hover:transform hover:scale-105 duration-300 ">
-        <a href="arproduct.html">
-          <div class="flex justify-end	">
-            <img src="img/Heart.svg" /></a>
-          </div>
-          <div class="relative flex items-end overflow-hidden rounded-xl">
-            <a href="arproduct.html">
-              <img src="img/Watch.svg" /></a>
-  
-          </div>
-  
-          <div class="mt-0 p-2 border-white  bg-white   border-radius: 1.5rem border"><div>
-
-            <h2 class="text-black font-bold  ">GMT-master II</h2>
-           
-            <p class="mt-3 text-sm text-[#838282] font-semibold">Rolex went to sale this december 2022 winning the most sales in 24 hours </p>
-  
-            <div class="mt-3 flex items-end justify-between">
-              <button>
-                <p class="text-lg font-bold text-black">850€</p>
-              </button>
-  
-              <div class="flex items-center space-x-1.5 rounded-lg bg-[#1E2612] px-4 py-1.5 text-white duration-100 hover:bg-[#1E2612]">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                </svg>
-                <a href="cart.html">
-                <button class="text-sm bg-[#1E2612]">Add to cart</button>
-              </a>
-              </div>
-            </div>
-          </div>
-        </a>
-      </article>
-  
+       </p>
+    <div class="mt-2 flex items-center justify-between">
+        <p class="text-lg font-bold text-blue-500">850€
+        </p>
       
-      <article class=" bg-gray-300 p-3 shadow-lg hover:shadow-xl hover:bg-white   hover:transform hover:scale-105 duration-300 ">
-        <a href="arproduct.html">
-          <div class="flex justify-end	">
-            <img src="img/Heart.svg" /></a>
-          </div>
-          <div class="relative flex items-end overflow-hidden rounded-xl">
-            <a href="arproduct.html">
-              <img src="img/Watch.svg" /></a>
-  
-          </div>
-  
-          <div class="mt-0 p-2 border-white  bg-white   border-radius: 1.5rem border"><div>
+      <div class="flex items-center space-x-1.5  px-4 py-1.5  duration-100 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+        </svg>
+        <a href="Omega-cart.html">
+        <button class="text-sm ">Add to cart</button>
+      </a>
+      </div>
+    </div>
+  </div>
+</article>
 
-            <h2 class="text-black font-bold  ">GMT-master II</h2>
-           
-            <p class="mt-3 text-sm text-[#838282] font-semibold">Rolex went to sale this december 2022 winning the most sales in 24 hours </p>
+
+
+<Article class=" bg-gray-200 p-2 shadow-lg hover:shadow-xl hover:bg-white rounded   hover:transform hover:scale-105 duration-300">
+  <a href="Omega-Ar.html">
+    <div class="flex flex-row-reverse ">
+      <button class="relative inline-flex items-center  p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
+        <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-400 rounded-md group-hover:bg-opacity-0">
+            View 3D
+        </span>
+      </button>
+    </div>
+  </a>
+    <div class=" relative flex items-end overflow-hidden rounded-xl">
+        <img src="img/Garmin_fenix_Render-removebg-preview (1).png" class="w-fit" />
   
-            <div class="mt-3 flex items-end justify-between">
-              <button>
-                <p class="text-lg font-bold text-black">850€</p>
-              </button>
+    </div>
+    <div class="mt-6 p-3   bg-gray-300 hover:bg-gray-300 rounded font-bold text-white  ">Omega<div>
+      <p class="mt-3 text-sm text-[#838282] font-semibold">Omega went to sale this december 2022 winning the most sales in 24 hours
+        
+         </p>
+      <div class="mt-2 flex items-center justify-between">
+          <p class="text-lg font-bold text-blue-500">850€
+          </p>
+        
+        <div class="flex items-center space-x-1.5  px-4 py-1.5  duration-100 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+          </svg>
+          <a href="Omega-cart.html">
+          <button class="text-sm ">Add to cart</button>
+        </a>
+        </div>
+      </div>
+    </div>
+</Article>
+ 
+
+<Cart class="rounded">
+ 
+       
+          <div class="pointer-events-auto w-screen max-w-md rounded">
+            <div class="flex h-full flex-col overflow-y-scroll bg-white shadow-xl">
+              <div class="flex-1 overflow-y-auto px-4 py-6 sm:px-6">
+                <div class="flex items-start justify-between">
+                  <h2 class="text-lg font-medium text-gray-900" id="slide-over-title">Shopping cart</h2>
+                  <div class="ml-3 flex h-7 items-center">
+                    <button type="button" class="-m-2 p-2 text-gray-400 hover:text-gray-500">
+                      <span class="sr-only">Close panel</span>
+                      <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
   
-              <div class="flex items-center space-x-1.5 rounded-lg bg-[#1E2612] px-4 py-1.5 text-white duration-100 hover:bg-[#1E2612]">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                </svg>
-                <a href="cart.html">
-                <button class="text-sm bg-[#1E2612]">Add to cart</button>
-              </a>
+                <div class="mt-8">
+                  <div class="flow-root">
+                    <ul role="list" class="-my-6 divide-y divide-gray-200">
+                      <li class="flex py-6">
+                        <div class="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+                          <img src="img/omega1.png" alt="Salmon orange fabric pouch with match zipper, gray zipper pull, and adjustable hip belt." class="h-full w-full object-cover object-center">
+                        </div>
+  
+                        <div class="ml-4 flex flex-1 flex-col">
+                          <div>
+                            <div class="flex justify-between text-base font-medium text-gray-900">
+                              <h3>
+                                <a href="#">Omega</a>
+                              </h3>
+                              <p class="ml-4">€850</p>
+                            </div>
+                            <p class="mt-1 text-sm text-gray-500">Salmon</p>
+                          </div>
+                          <div class="flex flex-1 items-end justify-between text-sm">
+                            <p class="text-gray-500">Qty 1</p>
+  
+                            <div class="flex">
+                              <button type="button" class="font-medium text-indigo-600 hover:text-indigo-500">Remove</button>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="flex py-6">
+                        <div class="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+                          <img src="img/germini-10.png" alt="Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch." class="h-full w-full object-cover object-center">
+                        </div>
+  
+                        <div class="ml-4 flex flex-1 flex-col">
+                          <div>
+                            <div class="flex justify-between text-base font-medium text-gray-900">
+                              <h3>
+                                <a href="#">Medium Stuff Satchel</a>
+                              </h3>
+                              <p class="ml-4">€850</p>
+                            </div>
+                            <p class="mt-1 text-sm text-gray-500">Blue</p>
+                          </div>
+                          <div class="flex flex-1 items-end justify-between text-sm">
+                            <p class="text-gray-500">Qty 1</p>
+  
+                            <div class="flex">
+                              <button type="button" class="font-medium text-indigo-600 hover:text-indigo-500">Remove</button>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+  
+                      <!-- More products... -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="border-t border-gray-200 px-4 py-6 sm:px-6">
+                <div class="flex justify-between text-base font-medium text-gray-900">
+                  <p>Subtotal</p>
+                  <p>€1700</p>
+                </div>
+                <p class="mt-0.5 text-sm text-gray-500">Shipping and taxes calculated at checkout.</p>
+                <div class="mt-6">
+                  <a href="Omega-checkout.html" class="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700">Checkout</a>
+                </div>
+                <div class="mt-6 flex justify-center text-center text-sm text-gray-500">
+                  <p>
+                    or
+                    <button type="button" class="font-medium text-indigo-600 hover:text-indigo-500">
+                      Continue Shopping
+                      <span aria-hidden="true"> &rarr;</span>
+                    </button>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </a>
-      </article>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</Cart>
 
-      <article class=" bg-gray-300 p-3 shadow-lg hover:shadow-xl hover:bg-white   hover:transform hover:scale-105 duration-300 ">
-        <a href="arproduct.html">
-          <div class="flex justify-end	">
-            <img src="img/Heart.svg" /></a>
-          </div>
-          <div class="relative flex items-end overflow-hidden rounded-xl">
-            <a href="arproduct.html">
-              <img src="img/Watch.svg" /></a>
-  
-          </div>
-  
-          <div class="mt-0 p-2 border-white  bg-white   border-radius: 1.5rem border"><div>
-
-            <h2 class="text-black font-bold  ">GMT-master II</h2>
-           
-            <p class="mt-3 text-sm text-[#838282] font-semibold">Rolex went to sale this december 2022 winning the most sales in 24 hours </p>
-  
-            <div class="mt-3 flex items-end justify-between">
-              <button>
-                <p class="text-lg font-bold text-black">850€</p>
-              </button>
-  
-              <div class="flex items-center space-x-1.5 rounded-lg bg-[#1E2612] px-4 py-1.5 text-white duration-100 hover:bg-[#1E2612]">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                </svg>
-                <a href="cart.html">
-                <button class="text-sm bg-[#1E2612]">Add to cart</button>
-              </a>
-              </div>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class=" bg-gray-300 p-3 shadow-lg hover:shadow-xl hover:bg-white   hover:transform hover:scale-105 duration-300 ">
-        <a href="arproduct.html">
-          <div class="flex justify-end	">
-            <img src="img/Heart.svg" /></a>
-          </div>
-          <div class="relative flex items-end overflow-hidden rounded-xl">
-            <a href="arproduct.html">
-              <img src="img/Watch.svg" /></a>
-  
-          </div>
-  
-          <div class="mt-0 p-2 border-white  bg-white   border-radius: 1.5rem border"><div>
-
-            <h2 class="text-black font-bold  ">GMT-master II</h2>
-           
-            <p class="mt-3 text-sm text-[#838282] font-semibold">Rolex went to sale this december 2022 winning the most sales in 24 hours </p>
-  
-            <div class="mt-3 flex items-end justify-between">
-              <button>
-                <p class="text-lg font-bold text-black">850€</p>
-              </button>
-  
-              <div class="flex items-center space-x-1.5 rounded-lg bg-[#1E2612] px-4 py-1.5 text-white duration-100 hover:bg-[#1E2612]">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                </svg>
-                <a href="cart.html">
-                <button class="text-sm bg-[#1E2612]">Add to cart</button>
-              </a>
-              </div>
-            </div>
-          </div>
-        </a>
-      </article>
-  
-      <article class=" bg-gray-300 p-3 shadow-lg hover:shadow-xl hover:bg-white   hover:transform hover:scale-105 duration-300 ">
-        <a href="arproduct.html">
-          <div class="flex justify-end	">
-            <img src="img/Heart.svg" /></a>
-          </div>
-          <div class="relative flex items-end overflow-hidden rounded-xl">
-            <a href="arproduct.html">
-              <img src="img/Watch.svg" /></a>
-  
-          </div>
-  
-          <div class="mt-0 p-2 border-white  bg-white   border-radius: 1.5rem border"><div>
-
-            <h2 class="text-black font-bold  ">GMT-master II</h2>
-           
-            <p class="mt-3 text-sm text-[#838282] font-semibold">Rolex went to sale this december 2022 winning the most sales in 24 hours </p>
-  
-            <div class="mt-3 flex items-end justify-between">
-              <button>
-                <p class="text-lg font-bold text-black">850€</p>
-              </button>
-  
-              <div class="flex items-center space-x-1.5 rounded-lg bg-[#1E2612] px-4 py-1.5 text-white duration-100 hover:bg-[#1E2612]">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                </svg>
-                <a href="cart.html">
-                <button class="text-sm bg-[#1E2612]">Add to cart</button>
-              </a>
-              </div>
-            </div>
-          </div>
-        </a>
-      </article>
-  
       
-      <article class=" bg-gray-300 p-3 shadow-lg hover:shadow-xl hover:bg-white   hover:transform hover:scale-105 duration-300 ">
-        <a href="arproduct.html">
-          <div class="flex justify-end	">
-            <img src="img/Heart.svg" /></a>
-          </div>
-          <div class="relative flex items-end overflow-hidden rounded-xl">
-            <a href="arproduct.html">
-              <img src="img/Watch.svg" /></a>
-  
-          </div>
-  
-          <div class="mt-0 p-2 border-white  bg-white   border-radius: 1.5rem border"><div>
 
-            <h2 class="text-black font-bold  ">GMT-master II</h2>
-           
-            <p class="mt-3 text-sm text-[#838282] font-semibold">Rolex went to sale this december 2022 winning the most sales in 24 hours </p>
-  
-            <div class="mt-3 flex items-end justify-between">
-              <button>
-                <p class="text-lg font-bold text-black">850€</p>
-              </button>
-  
-              <div class="flex items-center space-x-1.5 rounded-lg bg-[#1E2612] px-4 py-1.5 text-white duration-100 hover:bg-[#1E2612]">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                </svg>
-                <a href="cart.html">
-                <button class="text-sm bg-[#1E2612]">Add to cart</button>
-              </a>
-              </div>
-            </div>
-          </div>
-        </a>
-      </article>
 
+
+
+
+     
+
+
+
+     
 
 </html>
